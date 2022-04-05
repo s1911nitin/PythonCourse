@@ -86,9 +86,10 @@ Employee = """{
 # Akbhar padhke sunao using newsapi.org
 
 import requests
+import os
 from win32com.client import Dispatch
 
-r = requests.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=dcec54f89dc3408fbfab631139c830aa")
+r = requests.get(os.environ.get('NEWSPAPER_API'))
 
 # print(type(r.text))
 
