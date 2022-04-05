@@ -1,0 +1,3 @@
+This is best python & django tutorial ever !
+You will be able to learn beauty of python here. 
+Nitin would be the tutor of python and django course. 

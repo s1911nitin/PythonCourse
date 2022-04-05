@@ -1,0 +1,12 @@
+{
+  "emp1": {
+    "name": "Harry",
+    "salary": 500,
+    "is_programmer": true
+  },
+  "emp2": {
+    "name": "Naveen",
+    "salary": 400,
+    "is_programmer": false
+  }
+}
