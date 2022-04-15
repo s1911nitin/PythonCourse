@@ -6,8 +6,6 @@ This can be applied on a list which will have same nature of elements.
 It changes in original list.
 """
 
-from re import T
-from tkinter import Y
 
 
 List = [9,1,66,32,55,9,4]

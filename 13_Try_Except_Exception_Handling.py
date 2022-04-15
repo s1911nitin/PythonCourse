@@ -1,7 +1,4 @@
 
-from __future__ import division
-
-
 # n1 = int(input("Enter the first number: \n"))
 # n2 = int(input("Enter the second number: \n"))
 

@@ -17,7 +17,7 @@ website and due to which no compatibility issue will be raised.
 
 Note - Whenever you provide the code to somebody please provide
 requirements.txt as well where all the modules are listed which
-were used to create that app or website.
+were used to create that app or website along with their versions.
 
 
 We have one module virtualenv in python which is responsible for virtual environment.

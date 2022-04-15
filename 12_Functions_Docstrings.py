@@ -6,8 +6,6 @@ Function - There are two types of function we have in python.
 
 """
 
-import re
-
 
 List = [1,2,3,4]
 
