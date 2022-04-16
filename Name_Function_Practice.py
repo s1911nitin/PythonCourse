@@ -1,7 +1,4 @@
 
-from unicodedata import name
-
-
 a = 25
 
 def average(x,y):

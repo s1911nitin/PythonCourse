@@ -54,8 +54,6 @@ def play_sound(file,word):
 def log_file(msg):
     with open("log_data.txt","a") as f:
         f.write(f"{msg} at {datetime.now()} \n")
-        f.close()
-
 
 initial_water = time.time()
 initial_eye = time.time()

@@ -48,7 +48,7 @@ rohan.salary = 450
 # print(harry.leaves)
 
 """
-Note - instance cannot change the value or class variable as it creates instance variable itself.
+Note - instance cannot change the value of class variable as it creates instance variable itself.
 
 Instance checks the variable inside its scope first if finds so not to check further in class variable.
 """

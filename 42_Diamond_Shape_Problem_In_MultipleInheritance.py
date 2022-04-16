@@ -21,6 +21,7 @@ class B(A):
 class C(A):
     # var = 15
     pass
+    
 
 class D(B,C):
     # var = 20

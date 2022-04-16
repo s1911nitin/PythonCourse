@@ -27,4 +27,4 @@ sq = Square(5)
 
 # print(sq.square)
 # print(sq.printdetail())
-# print("Mandate Method:",sq.important())
+print("Mandate Method:",sq.important())
