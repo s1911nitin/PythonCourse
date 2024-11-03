@@ -88,3 +88,34 @@ def solider(folderpath, nottouchfile, extension):
 solider(folder_path, not_touch_file, ".jpg")
 
 
+
+# Best solution
+
+import os
+
+def soldier_func(mypath, myfile, myextension):
+
+    my_list = os.listdir(mypath)
+
+    f = open(myfile, "rt")
+    content = f.read()
+
+
+    i = 1
+
+    for item in my_list:
+        if item in content:
+            pass
+        else:
+            if item.endswith(".txt"):
+                complete_file_path = os.path.join(mypath,item)
+                os.rename(complete_file_path, os.path.join(mypath, item.capitalize()))
+            elif item.endswith(myextension):
+                complete_file_path = os.path.join(mypath,item)
+                os.rename(complete_file_path, os.path.join(mypath, f"{i}.jpg"))
+                i+=1
+
+soldier_func("C:/Users/Nitin Manali/OneDrive/Desktop/Py_PRAC/soldier", "C:/Users/Nitin Manali/OneDrive/Desktop/Py_PRAC/soldier/harry.txt", ".jpg")
+
+
+
